@@ -28,7 +28,7 @@ For instance, the following list
 
 arr = [[1, 2, 3], [4, 5, 6]] will be implemented as a matrix of sizes 2x3.
 
-Note: a simple list, for example, like [1, 2, 3] will be implemented as a matrix of sizes 1z3 whereas the list [[1], [2], [3]] will be implemented as a matrix of sizes 3x1.
+Note: a simple list, for example, like [1, 2, 3] will be implemented as a matrix of sizes 1x3 whereas the list [[1], [2], [3]] will be implemented as a matrix of sizes 3x1.
 
 It is required that given initialising list is completely filled without any empty cells.
 
