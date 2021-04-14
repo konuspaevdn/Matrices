@@ -1,16 +1,23 @@
+Module matrix.py
 
 Class Matrix
 
-Module matrix.py
-
 - class for creating and containing matrix objects of the size MxNxKxL, where M, N are posisitive integers and K, L are positive integers or null. Available methods are:
+
 -- getting the sizes of matrix;
+
 -- getting the element of matrix by key;
+
 -- getting the slice of matrix;
+
 -- getting the transposed version of matrix without changing the matrix itself (available only for two-dimensional matrices); 
+
 -- getting the addition of two matrices;
+
 -- getting the multiplication of two matrices (available only for two-dimensional matrices);
+
 -- getting the addition of matrix and number;
+
 -- getting the multiplication of matrix and number
 
 1) Initialisation: 
@@ -40,19 +47,19 @@ For example, if arr = [[[1, 2], [3, 4]], [[5, 6], [7, 8]]], then arr.slice(slice
 Note: available only for two-dimensional matrices
 
 -- operand +:
-	
-	-- matrix_one + matrix_two: returns the matrix of the sum of matrices
-	
-	-- matrix_one + number(int or float): returns the matrix of the elementwise addition with number
-	
+
+    -- matrix_one + matrix_two: returns the matrix of the sum of matrices
+
+    -- matrix_one + number(int or float): returns the matrix of the elementwise addition with number
+
 Note: left operand of operator + must always be a matrix
 
 -- operand *:
-	
-	-- matrix_one * matrix_two: returns the matrix of the multiplication of matrices
-	
-	-- matrix_one + number(int or float): returns the matrix of the elementwise multiplication with number
-	
+
+    -- matrix_one * matrix_two: returns the matrix of the multiplication of matrices
+
+    -- matrix_one * number(int or float): returns the matrix of the elementwise multiplication with number
+
 Note1: left operand of operator * must always be a matrix
 Note2: available only for two-dimensional matrices
 
